@@ -12,7 +12,10 @@ public class StringMemory {
 
         System.out.println(word3==word4);
 
+         new String("NoReference");
+
         System.out.println(word3.equals(word4));
+        System.out.println(new String("NoReference"));
 
     }
 }
